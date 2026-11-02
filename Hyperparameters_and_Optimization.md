@@ -1,7 +1,7 @@
 
 ## Training Setup and Implementation Details
 
-The model is trained using an ImageNet-pretrained ResNet backbone, while all additional modules are initialized using Kaiming initialization. Training is performed on foreground-biased image crops to increase the representation of relevant structures and improve segmentation learning. Exponential Moving Average (EMA) and gradient clipping are employed to promote stable optimization.
+The model is trained using a ResNet backbone, while all additional modules are initialized using Kaiming initialization. Training is performed on foreground-biased image crops to increase the representation of relevant structures and improve segmentation learning. Exponential Moving Average (EMA) and gradient clipping are employed to promote stable optimization.
 
 ### 1. Model Initialization
 
